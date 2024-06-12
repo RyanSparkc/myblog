@@ -1,6 +1,6 @@
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["_astro/SwupA11yPlugin.CyMkwGWW.js","_astro/Swup.CXlr5Q4E.js","_astro/index.modern.CkIAsQri.js","_astro/SwupPreloadPlugin.DalqFSRt.js","_astro/SwupScrollPlugin.36yyPdF9.js","_astro/SwupBodyClassPlugin.aa8fLSdp.js","_astro/SwupHeadPlugin.FjGODCox.js","_astro/SwupScriptsPlugin.o5PkFIdr.js"]
+    __vite__mapDeps.viteFileDeps = ["assets/SwupA11yPlugin.CyMkwGWW.js","assets/Swup.CXlr5Q4E.js","assets/index.modern.CkIAsQri.js","assets/SwupPreloadPlugin.DalqFSRt.js","assets/SwupScrollPlugin.36yyPdF9.js","assets/SwupBodyClassPlugin.aa8fLSdp.js","assets/SwupHeadPlugin.FjGODCox.js","assets/SwupScriptsPlugin.o5PkFIdr.js"]
   }
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }

@@ -1,0 +1,1 @@
+const main=new Proxy({src:"/myblog/assets/main.png.png",width:1024,height:1024,format:"png"},{get:(s,e,a)=>"clone"===e?structuredClone(s):"fsPath"===e?"/home/runner/work/astroblog/astroblog/src/assets/images/main.png":(void 0!==s[e]&&globalThis.astroAsset.referencedImages.add("/home/runner/work/astroblog/astroblog/src/assets/images/main.png"),s[e])});export{main as default};

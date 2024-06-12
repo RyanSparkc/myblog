@@ -70,7 +70,7 @@ draft: false
     ├── cover.png
     └── index.md
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>js 陣列</title><link>https://forest079-star.github.io/posts/jspost/js/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/jspost/js/</guid><description>JS 陣列功能介紹</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;陣列功能介紹&lt;/h2&gt;
+</content:encoded></item><item><title>JS 陣列</title><link>https://forest079-star.github.io/posts/jspost/js-array/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/jspost/js-array/</guid><description>JS 陣列功能介紹</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;陣列功能介紹&lt;/h2&gt;
 &lt;p&gt;陣列是一種可以儲存多個值的變數，這些值可以是任何型態的資料，例如數字、字串、物件等等。在 JavaScript 中，陣列是一種特殊的物件，可以透過索引值來存取陣列中的元素。&lt;/p&gt;
 &lt;h3&gt;陣列的建立&lt;/h3&gt;
 &lt;p&gt;在 JavaScript 中，可以使用方括號 &lt;code&gt;[]&lt;/code&gt; 或 &lt;code&gt;Array&lt;/code&gt; 類別來建立陣列。以下是建立陣列的幾種方式：&lt;/p&gt;
@@ -125,6 +125,59 @@ console.log(array.at(2)); // Output: 3
 &lt;li&gt;&lt;code&gt;sort&lt;/code&gt;: 對陣列中的元素進行排序。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;以上只是陣列功能的一小部分，JavaScript 還提供了更多強大的陣列方法和功能。詳細的說明和示例可以參考 JavaScript 的官方文件。&lt;/p&gt;
+</content:encoded></item><item><title>JS 物件</title><link>https://forest079-star.github.io/posts/jspost/js-object/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/jspost/js-object/</guid><description>這是關於物件常見功能的文章</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;JS Object常用功能&lt;/h2&gt;
+&lt;p&gt;在JavaScript中，物件是一個非常重要且常用的資料型別。它允許我們以鍵值對的形式組織和存儲資料。以下是一些常用的JS物件功能：&lt;/p&gt;
+&lt;h3&gt;1. 物件建立&lt;/h3&gt;
+&lt;p&gt;可以使用物件字面量或者使用&lt;code&gt;new&lt;/code&gt;關鍵字來建立一個物件。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// 使用物件字面量建立物件
+const person = {
+  name: &apos;John&apos;,
+  age: 30,
+  city: &apos;New York&apos;
+};
+
+// 使用new關鍵字建立物件
+const car = new Object();
+car.brand = &apos;Toyota&apos;;
+car.model = &apos;Camry&apos;;
+car.year = 2022;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;2. 存取物件屬性&lt;/h3&gt;
+&lt;p&gt;可以使用點號&lt;code&gt;.&lt;/code&gt;或者方括號&lt;code&gt;[]&lt;/code&gt;來存取物件的屬性。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;console.log(person.name); // 輸出: John
+console.log(car[&apos;brand&apos;]); // 輸出: Toyota
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;3. 修改物件屬性&lt;/h3&gt;
+&lt;p&gt;可以直接對物件的屬性進行賦值來修改它們的值。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;person.age = 35;
+car[&apos;year&apos;] = 2023;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;4. 刪除物件屬性&lt;/h3&gt;
+&lt;p&gt;可以使用&lt;code&gt;delete&lt;/code&gt;關鍵字來刪除物件的屬性。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;delete person.city;
+delete car.model;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;5. 物件迭代&lt;/h3&gt;
+&lt;p&gt;可以使用&lt;code&gt;for...in&lt;/code&gt;迴圈來迭代物件的屬性。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for (let key in person) {
+  console.log(key + &apos;: &apos; + person[key]);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;6. 物件方法&lt;/h3&gt;
+&lt;p&gt;物件可以包含方法，這些方法可以在物件上執行特定的操作。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const calculator = {
+  add: function(a, b) {
+    return a + b;
+  },
+  subtract: function(a, b) {
+    return a - b;
+  }
+};
+
+console.log(calculator.add(5, 3)); // 輸出: 8
+console.log(calculator.subtract(5, 3)); // 輸出: 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上是一些JS物件的常用功能，希望對你有所幫助！&lt;/p&gt;
 </content:encoded></item><item><title>Markdown Extended Features1</title><link>https://forest079-star.github.io/posts/markdown-extended/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/markdown-extended/</guid><description>Read more about Markdown features in Fuwari</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub repository cards!&lt;/h2&gt;
 &lt;p&gt;You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.&lt;/p&gt;
 &lt;p&gt;::github{repo=&quot;Fabrizz/MMM-OnSpotify&quot;}&lt;/p&gt;

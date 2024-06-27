@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ryan&apos;s Blog</title><description>Demo Site</description><link>https://forest079-star.github.io/myblog/</link><language>zh_TW</language><item><title>Draft Example</title><link>https://forest079-star.github.io/posts/draft/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/draft/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;This Article is a Draft&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ryan&apos;s Blog</title><description>Demo Site</description><link>https://ryansparkc.github.io/myblog/</link><language>zh_TW</language><item><title>Draft Example</title><link>https://ryansparkc.github.io/posts/draft/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/draft/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;This Article is a Draft&lt;/h1&gt;
 &lt;p&gt;This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.&lt;/p&gt;
 &lt;p&gt;When the article is ready for publication, you can update the &quot;draft&quot; field to &quot;false&quot; in the Frontmatter:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
@@ -9,7 +9,7 @@ category: Examples
 draft: false
 ---
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Simple Guides for Fuwari</title><link>https://forest079-star.github.io/posts/guide/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/guide/</guid><description>How to use this blog template.</description><pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+</content:encoded></item><item><title>Simple Guides for Fuwari</title><link>https://ryansparkc.github.io/posts/guide/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/guide/</guid><description>How to use this blog template.</description><pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Cover image source: &lt;a href=&quot;https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This blog template is built with &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt;. For the things that are not mentioned in this guide, you may find the answers in the &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro Docs&lt;/a&gt;.&lt;/p&gt;
@@ -70,7 +70,7 @@ draft: false
     ├── cover.png
     └── index.md
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>JS 陣列</title><link>https://forest079-star.github.io/posts/jspost/js-array/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/jspost/js-array/</guid><description>JS 陣列功能介紹</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;陣列功能介紹&lt;/h2&gt;
+</content:encoded></item><item><title>JS 陣列</title><link>https://ryansparkc.github.io/posts/jspost/js-array/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/jspost/js-array/</guid><description>JS 陣列功能介紹</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;陣列功能介紹&lt;/h2&gt;
 &lt;p&gt;陣列是一種可以儲存多個值的變數，這些值可以是任何型態的資料，例如數字、字串、物件等等。在 JavaScript 中，陣列是一種特殊的物件，可以透過索引值來存取陣列中的元素。&lt;/p&gt;
 &lt;h3&gt;陣列的建立&lt;/h3&gt;
 &lt;p&gt;在 JavaScript 中，可以使用方括號 &lt;code&gt;[]&lt;/code&gt; 或 &lt;code&gt;Array&lt;/code&gt; 類別來建立陣列。以下是建立陣列的幾種方式：&lt;/p&gt;
@@ -125,7 +125,7 @@ console.log(array.at(2)); // Output: 3
 &lt;li&gt;&lt;code&gt;sort&lt;/code&gt;: 對陣列中的元素進行排序。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;以上只是陣列功能的一小部分，JavaScript 還提供了更多強大的陣列方法和功能。詳細的說明和示例可以參考 JavaScript 的官方文件。&lt;/p&gt;
-</content:encoded></item><item><title>JS 物件</title><link>https://forest079-star.github.io/posts/jspost/js-object/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/jspost/js-object/</guid><description>這是關於物件常見功能的文章</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;JS Object常用功能&lt;/h2&gt;
+</content:encoded></item><item><title>JS 物件</title><link>https://ryansparkc.github.io/posts/jspost/js-object/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/jspost/js-object/</guid><description>這是關於物件常見功能的文章</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;JS Object常用功能&lt;/h2&gt;
 &lt;p&gt;在JavaScript中，物件是一個非常重要且常用的資料型別。它允許我們以鍵值對的形式組織和存儲資料。以下是一些常用的JS物件功能：&lt;/p&gt;
 &lt;h3&gt;1. 物件建立&lt;/h3&gt;
 &lt;p&gt;可以使用物件字面量或者使用&lt;code&gt;new&lt;/code&gt;關鍵字來建立一個物件。&lt;/p&gt;
@@ -178,7 +178,7 @@ console.log(calculator.add(5, 3)); // 輸出: 8
 console.log(calculator.subtract(5, 3)); // 輸出: 2
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;以上是一些JS物件的常用功能，希望對你有所幫助！&lt;/p&gt;
-</content:encoded></item><item><title>Markdown Extended Features1</title><link>https://forest079-star.github.io/posts/markdown-extended/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/markdown-extended/</guid><description>Read more about Markdown features in Fuwari</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub repository cards!&lt;/h2&gt;
+</content:encoded></item><item><title>Markdown Extended Features1</title><link>https://ryansparkc.github.io/posts/markdown-extended/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/markdown-extended/</guid><description>Read more about Markdown features in Fuwari</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub repository cards!&lt;/h2&gt;
 &lt;p&gt;You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.&lt;/p&gt;
 &lt;p&gt;::github{repo=&quot;Fabrizz/MMM-OnSpotify&quot;}&lt;/p&gt;
 &lt;p&gt;Create a GitHub repository card with the code &lt;code&gt;::github{repo=&quot;&amp;lt;owner&amp;gt;/&amp;lt;repo&amp;gt;&quot;}&lt;/code&gt;.&lt;/p&gt;
@@ -217,7 +217,7 @@ This is a note with a custom title.
 This is a note with a custom title.
 :::
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Markdown Example</title><link>https://forest079-star.github.io/posts/markdown/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/markdown/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;An h1 header&lt;/h1&gt;
+</content:encoded></item><item><title>Markdown Example</title><link>https://ryansparkc.github.io/posts/markdown/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/markdown/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;An h1 header&lt;/h1&gt;
 &lt;p&gt;Paragraphs are separated by a blank line.&lt;/p&gt;
 &lt;p&gt;2nd paragraph. &lt;em&gt;Italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, and &lt;code&gt;monospace&lt;/code&gt;. Itemized lists
 look like:&lt;/p&gt;
@@ -338,7 +338,7 @@ math should get its own line and be put in in double-dollarsigns:&lt;/p&gt;
 &lt;p&gt;$$I = \int \rho R^{2} dV$$&lt;/p&gt;
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
-</content:encoded></item><item><title>Include Video in the Posts</title><link>https://forest079-star.github.io/posts/video/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
+</content:encoded></item><item><title>Include Video in the Posts</title><link>https://ryansparkc.github.io/posts/video/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: Include Video in the Post
 published: 2023-10-19
@@ -351,7 +351,7 @@ published: 2023-10-19
 &lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;h2&gt;Bilibili&lt;/h2&gt;
 &lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&amp;amp;p=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/p&gt;
-</content:encoded></item><item><title>第一篇文章</title><link>https://forest079-star.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link><guid isPermaLink="true">https://forest079-star.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid><description>測試一下第一篇文章</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub repository cards!&lt;/h2&gt;
+</content:encoded></item><item><title>第一篇文章</title><link>https://ryansparkc.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link><guid isPermaLink="true">https://ryansparkc.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid><description>測試一下第一篇文章</description><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub repository cards!&lt;/h2&gt;
 &lt;p&gt;You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.&lt;/p&gt;
 &lt;p&gt;測試第一篇文章&lt;/p&gt;
 &lt;p&gt;::github{repo=&quot;Fabrizz/MMM-OnSpotify&quot;}&lt;/p&gt;
